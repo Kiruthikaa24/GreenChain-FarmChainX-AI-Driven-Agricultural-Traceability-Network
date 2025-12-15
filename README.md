@@ -89,14 +89,14 @@ Configure MySQL database in application.properties:
 
 properties
 
-spring.datasource.url=jdbc:mysql://localhost:3306/farmxchain
+spring.datasource.url=jdbc:mysql://localhost:3307/farmxchain
 spring.datasource.username=root
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 Create the database:
 
 CREATE DATABASE farmxchain;
-Run FarmxchainAuthApplication.java as a Java Application. The backend will start on http://localhost:8080.
+Run FarmxchainAuthApplication.java as a Java Application. The backend will start on http://localhost:8082.
 
 🔄 Running the Full Application
 Start MySQL.
@@ -106,12 +106,12 @@ Run the backend in Eclipse.
 Run the frontend (npm start).
 
 Access the app at http://localhost:3000.
-The frontend communicates with backend APIs at http://localhost:8080.
+The frontend communicates with backend APIs at http://localhost:8082.
 
 
 
 💡 Notes
-Ensure ports 3000 (frontend) and 8080 (backend) are free.
+Ensure ports 3000 (frontend) and 8082 (backend) are free.
 
 <<<<<<< HEAD
 The backend must be running for the frontend features to work properly.
