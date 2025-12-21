@@ -9,17 +9,6 @@ AI-Driven Agricultural Traceability Network
 **GreenChain** is a full-stack application that leverages **AI and cloud technologies** to provide an end-to-end **agricultural traceability system**. It enables farmers, distributors, and consumers to track the journey of agricultural products from farm to fork, ensuring **transparency, accountability, and quality assurance**.  
 
 ---
-
-## 🏗️ Project Structure
-
-
-FarmChainX-AI-Driven-Agricultural-Traceability-Network/
-├─ frontend/
-# React frontend
-└─ backend/ 
-# Spring Boot backend (Eclipse project)
-
-
 ---
 
 ## ⚙️ Tech Stack
